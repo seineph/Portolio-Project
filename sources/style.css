@@ -1,2 +1,46 @@
-h1{font-family: "Roboto", serif;
-    font-weight: 600;}
+:root{--h1-color:#4053E1 ;
+--h1-text-shadow:-1px -1px var(--h1-main-text-stroke),
+        1px -1px var(--h1-main-text-stroke),
+        -1px 1px var(--h1-main-text-stroke),
+        1px 1px var(--h1-main-text-stroke);
+    --h1-main-text-stroke: #D2D6FE;
+    --h1-accent-color:#FFFEAC;
+    --h1-text-stroke:#FFB028;
+--h1-accent-shadow:-1px -1px var(--h1-text-stroke),
+    1px -1px var(--h1-text-stroke),
+    -1px 1px var(--h1-text-stroke),
+    1px 1px var(--h1-text-stroke);
+    --primary-bg-color:#7C8BFF;
+--secondary-bg-color:#9AA4F4;
+--tertiary-bg-color:#4053E1;
+--paragraph-color:#7C90FD;
+--button-bg:#4C61FF;
+--button-text:#FFFFFF;
+}
+
+
+
+
+h1{font-family:  "Lexend Deca", serif;
+   color: var(--h1-color);
+   -webkit-text-stroke-color:var(--h1-main-text-stroke);
+-webkit-text-fill-color:var(--h1-color);
+text-shadow:var(--h1-text-shadow);
+
+
+   font-weight: 800;
+   font-size: 40px;
+}
+
+h2{font-family: "Lexend Deca",serif;
+font-weight: 600;
+font-size: 30px;
+color: white;}
+
+.welcome-block{background-color: #7C8BFF;
+    text-align: center;
+    min-height: 60vh;
+    justify-items: center;
+        align-content: center;
+    
+}
