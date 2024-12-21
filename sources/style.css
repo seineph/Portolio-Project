@@ -23,6 +23,15 @@
 }
 
 
+@media (max-width: 700px) {
+h1 {font-size: 28px;}
+h2{font-size: 22px;}
+h3{font-size: 18px;}
+img{display: none;}
+body{text-align:center}
+}
+
+
 
 
 h1{font-family:  "Lexend Deca", serif;
@@ -30,8 +39,6 @@ h1{font-family:  "Lexend Deca", serif;
    -webkit-text-stroke-color:var(--h1-main-text-stroke);
 -webkit-text-fill-color:var(--h1-color);
 text-shadow:var(--h1-text-shadow);
-
-
    font-weight: 800;
    font-size: 40px;
 }
@@ -41,12 +48,16 @@ font-weight: 600;
 font-size: 30px;
 color: white;}
 
+h3{color: var(--h1-color);
+font-family: var(--font-bold);
+font-weight: 600;}
+
 .welcome-block{background-color: #7C8BFF;
     text-align: center;
     min-height: 60vh;
     justify-items: center;
         align-content: center;
-
+     padding: 20px;
     
 }
 
@@ -56,12 +67,12 @@ color: white;}
     font-family:var(--font-bold) ;
     stroke:1px var(--button-stroke);
   margin-top:20px;
-  width: 10vw;
     min-width: min-content;
 }
 
 .primary-button:hover{background-color: white;
-color: var(--button-bg);}
+color: var(--button-bg);
+}
 
 .primary-button:active{background-color:var(--h1-color);
 border:1px var(--button-stroke);
@@ -69,3 +80,17 @@ color: var(--secondary-bg-color);}
 
 .bold-font{font-family: var(--font-bold);
 font-weight: var(--font-bold);}
+
+.badge{background-color: var(--h1-color);
+padding-left: 8px;
+padding-right: 8px;
+padding-top: 4px;
+padding-bottom: 4px;
+margin-top:2px}
+
+.title{display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
