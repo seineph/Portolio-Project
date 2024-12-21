@@ -14,8 +14,12 @@
 --secondary-bg-color:#9AA4F4;
 --tertiary-bg-color:#4053E1;
 --paragraph-color:#7C90FD;
+--button-stroke:#7080FE;
 --button-bg:#4C61FF;
 --button-text:#FFFFFF;
+--font-bold:"Lexend Deca",
+    serif;
+    font-weight: 800
 }
 
 
@@ -42,5 +46,26 @@ color: white;}
     min-height: 60vh;
     justify-items: center;
         align-content: center;
+
     
 }
+
+.primary-button{background-color: var(--button-bg);
+    color:white;
+    font-weight: 500;
+    font-family:var(--font-bold) ;
+    stroke:1px var(--button-stroke);
+  margin-top:20px;
+  width: 10vw;
+    min-width: min-content;
+}
+
+.primary-button:hover{background-color: white;
+color: var(--button-bg);}
+
+.primary-button:active{background-color:var(--h1-color);
+border:1px var(--button-stroke);
+color: var(--secondary-bg-color);}
+
+.bold-font{font-family: var(--font-bold);
+font-weight: var(--font-bold);}
