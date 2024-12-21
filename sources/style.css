@@ -10,6 +10,11 @@
     1px -1px var(--h1-text-stroke),
     -1px 1px var(--h1-text-stroke),
     1px 1px var(--h1-text-stroke);
+--h2-text-stroke:#9AA4F4;
+    --h2-accent-shadow: -1px -1px var(--h2-text-stroke),
+            1px -1px var(--h2-text-stroke),
+            -1px 1px var(--h2-text-stroke),
+            1px 1px var(--h2-text-stroke);
     --primary-bg-color:#7C8BFF;
 --secondary-bg-color:#9AA4F4;
 --tertiary-bg-color:#4053E1;
@@ -19,7 +24,8 @@
 --button-text:#FFFFFF;
 --font-bold:"Lexend Deca",
     serif;
-    font-weight: 800
+    font-weight: 800;
+    --alternative-border-color:#FFFDFD;
 }
 
 
@@ -41,6 +47,7 @@ h1{font-family:  "Lexend Deca", serif;
 text-shadow:var(--h1-text-shadow);
    font-weight: 800;
    font-size: 40px;
+
 }
 
 h2{font-family: "Lexend Deca",serif;
@@ -60,6 +67,17 @@ font-weight: 600;}
      padding: 20px;
     
 }
+.secondary-button {
+    color: #4C61FF;
+    font-weight: 400;
+    font-family: var(--font-bold);
+    border: 1px solid #4C61FF;
+}
+
+.secondary-button:hover {
+  color: white;
+    background-color: var(--button-bg);
+}
 
 .primary-button{background-color: var(--button-bg);
     color:white;
@@ -67,12 +85,13 @@ font-weight: 600;}
     font-family:var(--font-bold) ;
     stroke:1px var(--button-stroke);
   margin-top:20px;
-    min-width: min-content;
+    min-width: 24vw;
     padding-left: 20px;
     padding-right: 20px;
-   width: 32vw;
+  
     line-height: 32px;
 }
+
 
 .primary-button:hover{background-color: white;
 color: var(--button-bg);
@@ -116,3 +135,35 @@ justify-content: center;
 margin: 20px 0;
 padding: 10px 0;
 background-color: #7C8BFF;}
+
+
+/* about me */
+
+.dark-bg{background-color:var(--tertiary-bg-color)}
+
+i{margin:0 18px;
+color: var(--h1-color);}
+
+.sub-title{color: var(--h1-main-text-stroke);
+font-family: var(--font-bold);
+font-size: 20px;}
+
+.sub-title-2{color: white;
+    font-family: var(--font-bold);
+    font-size: 18px;
+font-weight: 200;
+line-height: 1.6rem;}
+
+.alternative-h2{ 
+    text-shadow: var(--h2-accent-shadow);}
+.alternative-h1 {
+    text-shadow: var(--h1-accent-shadow);
+-webkit-text-fill-color: var(--h1-accent-color);
+}
+
+.profile-pic{
+    display: block;
+margin: 0 auto;
+width:30vw;
+align-self: center;
+max-width: 36vw;}
