@@ -63,11 +63,15 @@ font-weight: 600;}
 
 .primary-button{background-color: var(--button-bg);
     color:white;
-    font-weight: 500;
+    font-weight: 400;
     font-family:var(--font-bold) ;
     stroke:1px var(--button-stroke);
   margin-top:20px;
     min-width: min-content;
+    padding-left: 20px;
+    padding-right: 20px;
+   width: 32vw;
+    line-height: 32px;
 }
 
 .primary-button:hover{background-color: white;
@@ -99,3 +103,16 @@ p{color:var(--paragraph-color);
 font-weight:400 ;}
 
 .subtitle{color:var(--button-stroke);}
+
+.list-item{border:none;
+align-items: center;
+justify-content: center;
+}
+
+.slider{
+    font-family: var(--font-bold);
+    color:white;
+    font-size: 18px;
+margin: 20px 0;
+padding: 10px 0;
+background-color: #7C8BFF;}
