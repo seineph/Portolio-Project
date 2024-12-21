@@ -13,7 +13,7 @@
     --primary-bg-color:#7C8BFF;
 --secondary-bg-color:#9AA4F4;
 --tertiary-bg-color:#4053E1;
---paragraph-color:#7C90FD;
+--paragraph-color:#454545;
 --button-stroke:#7080FE;
 --button-bg:#4C61FF;
 --button-text:#FFFFFF;
@@ -94,3 +94,8 @@ margin-top:2px}
     flex-wrap: nowrap;
     flex-direction: row;
 }
+
+p{color:var(--paragraph-color);
+font-weight:400 ;}
+
+.subtitle{color:var(--button-stroke);}
