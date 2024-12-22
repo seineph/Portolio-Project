@@ -113,6 +113,8 @@ padding-top: 4px;
 padding-bottom: 4px;
 margin-top:2px}
 
+.badge-container{max-width:100%;}
+
 .title{display: flex;
     align-items: flex-start;
     justify-content: flex-start;
