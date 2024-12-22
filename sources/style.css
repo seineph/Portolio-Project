@@ -230,7 +230,8 @@ color: white;
 .medium-text{font-weight: 400;
 color:white;
 margin:20px 0;
-font-size: 20px;}
+font-size: 20px;
+margin: 3.2rem 0;}
 
 .small-text{font-size: 18px;
 color: var(--button-text);
