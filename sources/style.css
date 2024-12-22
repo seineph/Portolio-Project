@@ -35,6 +35,7 @@ h2{font-size: 22px;}
 h3{font-size: 18px;}
 img{display: none;}
 body{text-align:center}
+.project-title{font-size: 22px;}
 }
 
 
@@ -167,3 +168,29 @@ margin: 0 auto;
 width:30vw;
 align-self: center;
 max-width: 36vw;}
+
+
+.image-container{
+   width: fit-content;
+    opacity: 0.83;
+    padding: 10px;
+    margin: 20px auto;}
+
+
+    .social-media{margin-top:40px}
+    .icon{font-size: 28px
+}
+
+i{color: var(--button-text)}
+
+/* projects */
+
+.card{border:none}
+.project-title{color: var(--button-bg);}
+.project-images{margin:0;
+border:2px solid #4053e168;
+border-radius: 12px;}
+
+
+.card img:hover{
+border: 4px solid #fec563a1;}
