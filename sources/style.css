@@ -123,6 +123,7 @@ margin-top:2px}
     flex-wrap: nowrap;
     flex-direction: row;
 }
+/*Footer*/
 
 footer{background-color: var(--button-stroke);
     padding: 28px 26px;
@@ -135,8 +136,18 @@ gap:1.6rem;}
 
 footer .mail-style{font-size: 16px;}
 
+.footer-text{color: white;
+background-color: var(--button-stroke);
+font-size: 1.2rem;
+font-weight: 300;
+font-family:"Lexend Deca",
+}
 
+.footer-link{text-decoration: none;
+color:var(--alternative-border-color);}
 
+.footer-link:hover{color: var(--button-bg);
+font-weight: 500;}
 
 .icon i:hover{color: var(--button-bg);}
 
