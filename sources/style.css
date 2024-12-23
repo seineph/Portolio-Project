@@ -37,7 +37,8 @@ img{display: none;}
 body{text-align:center}
 .project-title{font-size: 22px;}
 .title{justify-content: center!important;}
-
+.card{width: -webkit-fill-available;}
+.columns{justify-content: center;}
 }
 
 .active{color: var(--button-bg)!important;
