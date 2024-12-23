@@ -39,6 +39,8 @@ body{text-align:center}
 
 }
 
+.active{color: var(--button-bg)!important;
+font-weight: 500}
 
 
 
@@ -195,7 +197,8 @@ border: solid 4px rgba(255, 255, 255, 0.145) }
         width: 40px;
 }
 
-i{color: var(--button-text)}
+i{color: var(--button-text);
+}
 
 /* projects */
 
@@ -205,9 +208,10 @@ i{color: var(--button-text)}
 border:2px solid #4053e168;
 border-radius: 12px;}
 
+.card img{transition: all 100ms ease-in-out;}
 
 .card img:hover{
-border: 4px solid #fec563a1;}
+border: 4px solid var(--button-stroke);}
 
 
 /* contact me */
