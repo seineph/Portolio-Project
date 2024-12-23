@@ -51,9 +51,17 @@ h1{font-family:  "Lexend Deca", serif;
 -webkit-text-fill-color:var(--h1-color);
 text-shadow:var(--h1-text-shadow);
    font-weight: 800;
-   font-size: 40px;
+   font-size: 60px;
 
 }
+
+h5{font-family: "Lexend Deca", serif;
+    color: var(--h1-color);
+    -webkit-text-stroke-color: var(--h1-main-text-stroke);
+    -webkit-text-fill-color: var(--h1-color);
+    text-shadow: var(--h1-text-shadow);
+    font-weight: 800;
+    font-size: 40px;}
 
 h2{font-family: "Lexend Deca",serif;
 font-weight: 600;
@@ -66,7 +74,7 @@ font-weight: 600;}
 
 .welcome-block{background-color: #7C8BFF;
     text-align: center;
-    min-height: fit-content;
+    min-height: 45vh;
     justify-items: center;
         align-content: center;
      padding: 20px;
